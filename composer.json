@@ -1,0 +1,25 @@
+{
+    "repositories": [{
+        "type": "vcs",
+        "url": "/Users/daniele/PhpstormProjects/SEOStats"
+    }],
+    "name": "ijanki/seo-stats-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "homepage": "https://github.com/iJanki/SEOStatsBundle",
+    "authors": [
+        {
+            "name": "Daniele Cesarini",
+            "email": "daniele.cesarini@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/dependency-injection": "*",
+        "symfony/http-kernel": "*",
+        "symfony/config": "*",
+        "ijanki/seo-stats": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Ijanki\\Bundle\\SEOStatsBundle\\": "" }
+    }
+}
